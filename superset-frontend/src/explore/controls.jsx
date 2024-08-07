@@ -273,6 +273,13 @@ export const controls = {
         '`1 day` or `56 weeks`',
     ),
   },
+  
+  emit_filter: {
+    type: 'CheckboxControl',
+    label: t('Emit filter'),
+    description: '',
+    default: false,
+  },
 
   granularity_sqla: {
     type: 'SelectControl',
